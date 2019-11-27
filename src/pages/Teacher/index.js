@@ -1,5 +1,5 @@
 import React from 'react';
-import MyActivy from '../../components/MyActivy';
+import CardPeople from '../../components/CardPeople';
 import Accordeon from '../../components/Accordeon';
 import LineOfTime from '../../components/LineOfTime';
 import Icon from '../../assets/angle-arrow-down.svg';
@@ -14,7 +14,13 @@ export default function Teacher({ user, setObjModal, isOpen, setIsOpen }) {
 				<div className='lineUp'>
 					{user.class &&
 						user.class.map((classe) => (
-							<MyActivy setObjModal={setObjModal} setIsOpen={setIsOpen} user={classe} />
+							<CardPeople
+								onclick={() => {
+									setObjModal(classe);
+									setIsOpen(!isOpen);
+								}}
+								classe={user}
+							/>
 						))}
 				</div>
 			</div>
