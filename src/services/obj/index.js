@@ -40,7 +40,7 @@ const Users = [
 						nivel: '2',
 						serie: '1º Ano',
 						status: 'Pendente',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					},
 					{
@@ -48,7 +48,7 @@ const Users = [
 						nivel: '1',
 						serie: '1º Ano',
 						status: 'Entregue',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					}
 				]
@@ -78,7 +78,7 @@ const Users = [
 						nivel: '2',
 						serie: '1º Ano',
 						status: 'Pendente',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					},
 					{
@@ -86,7 +86,7 @@ const Users = [
 						nivel: '1',
 						serie: '1º Ano',
 						status: 'Entregue',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					}
 				]
@@ -116,7 +116,7 @@ const Users = [
 						nivel: '2',
 						serie: '1º Ano',
 						status: 'Pendente',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					},
 					{
@@ -124,7 +124,7 @@ const Users = [
 						nivel: '1',
 						serie: '1º Ano',
 						status: 'Entregue',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					}
 				]
@@ -155,7 +155,7 @@ const Users = [
 						nivel: '2',
 						serie: '1º Ano',
 						status: 'Pendente',
-						Nota: 10,
+						nota: 10,
 						imageLanguage: js
 					},
 					{
@@ -183,19 +183,11 @@ const Users = [
 		total_task: 7,
 		activy: [
 			{
-				title: 'Criando classe com javascript',
+				title: 'Entendendo node js',
 				nivel: '1',
 				serie: '1º Ano',
 				status: 'Entregue',
-				Avaliation: 10,
-				imageLanguage: js
-			},
-			{
-				title: 'Criando funcao com javascript',
-				nivel: '2',
-				serie: '1º Ano',
-				status: 'Pendente',
-				Nota: 10,
+				nota: 10,
 				imageLanguage: js
 			},
 			{
@@ -203,7 +195,23 @@ const Users = [
 				nivel: '1',
 				serie: '1º Ano',
 				status: 'Entregue',
-				Nota: 10,
+				nota: 10,
+				imageLanguage: js
+			},
+			{
+				title: 'Entendendo node js',
+				nivel: '1',
+				serie: '1º Ano',
+				status: 'Entregue',
+				nota: 10,
+				imageLanguage: js
+			},
+			{
+				title: 'Entendendo node js',
+				nivel: '1',
+				serie: '1º Ano',
+				status: 'Entregue',
+				nota: 10,
 				imageLanguage: js
 			}
 		]
