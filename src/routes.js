@@ -1,16 +1,25 @@
-import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React from 'react';
+import useReactRouter from 'use-react-router';
 
-import Main from "./pages/Main";
-import Box from "./pages/Box";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
 
-const Routes = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" exact component={Main} />
-      <Route path="/box/:id" component={Box} />
-    </Switch>
-  </BrowserRouter>
-);
+import Login from './pages/Login';
+import Student from './pages/Student';
+import Teacher from './pages/Teacher';
 
-export default Routes;
+// import { Container } from './styles';
+
+export default function Routes() {
+	return (
+		<BrowserRouter>
+			<Header />
+			<Switch>
+				<Route path='/' exact component={Login} />
+
+				<Route path='/formadev/Aluno' component={Student} />
+				<Route path='/formadev/Professor' component={Teacher} />
+			</Switch>
+		</BrowserRouter>
+	);
+}
