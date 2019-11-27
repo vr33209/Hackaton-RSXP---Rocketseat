@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CardActivy from '../../components/CardActivy';
 
-export default function Student() {
-	const [ user, setUser ] = useState([]);
-
-	useEffect(() => {
-		const user = localStorage.getItem('user');
-		setUser(JSON.parse(user));
-	}, []);
-
+export default function Student({ user }) {
 	return (
 		<div className='student'>
 			<div className='studentContainer'>
