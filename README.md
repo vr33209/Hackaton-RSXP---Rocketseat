@@ -1,8 +1,21 @@
 # FormaDEV - FRONTEND
 
-FormaDEV é uma plataforma para levar programação para escolas publias nas comunidades brasileira de baixa renda.
+Formar desenvolvedores, levando conteúdo para alunos de ensino médio de escolas credenciadas na plataforma Forma Dev.
+Entregar ensino de programação com metodologias agregada a uma plataforma de ensino presencial e disponível também online.
+Públicos alvo
+	*	Escolas privadas: levar a plataforma por um preço que cubra os custos de manter a plataforma
+	*	Escolas públicas: levar a plataforma custeado pelo governo do estado ou prefeituras.
 
-Confira o acesso a demo: https://formadev-frontend.herokuapp.com/
+Como será feito:
+* Inicialmente começaremos em busca de escolas de rede privada, e cada contrato firmado em escola privada lançaremos o projeto em uma escola público, totalmente de graça. Assim dando ensino de qualidade às escolas públicas
+
+*-* Mobilizar familiares e pessoas para mostrar o quão importante será necessário a programação no futuro.
+
+*-* O projeto em cada escola terá o tempo mínimo de 4 anos, iniciando com palestras e workshops. Começando pelo 8º / 9º ano dando palestras e workshops, mostrando com estatísticas o quão bom pode ser a carreira de Dev. Nos demais anos inicia*--se o curso com duração de 3 anos.
+
+*-* Durante os 3 anos de curso, cada ano terá sua metodologia única e seu cronograma. E todos os projetos desenvolvidos serão aplicados em prol da sociedade e da própria escola.
+
+Confira o acesso a demo: https://formadev*-*frontend.herokuapp.com/
 
 ## Instalação
 
