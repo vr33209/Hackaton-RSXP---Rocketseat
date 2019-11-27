@@ -1,4 +1,3 @@
-import AvatarImage from '../../assets/user 1.svg';
 import js from '../../assets/javascript (1).svg';
 
 const Users = [
