@@ -11,7 +11,7 @@ const Users = [
 		serie: 2,
 		level: 3,
 		task_complete: 5,
-		avatar: AvatarImage,
+		avatar: 'https://api.adorable.io/avatars/200/abostt@adorable.png',
 		total_task: 10,
 		activy: [],
 		class: [
@@ -24,7 +24,7 @@ const Users = [
 				serie: 3,
 				level: 5,
 				task_complete: 4,
-				avatar: AvatarImage,
+				avatar: 'https://api.adorable.io/avatars/200/abott@adorable.png',
 				total_task: 8,
 				activy: [
 					{
@@ -62,7 +62,7 @@ const Users = [
 				serie: 3,
 				level: 7,
 				task_complete: 2,
-				avatar: AvatarImage,
+				avatar: 'https://api.adorable.io/avatars/200/abost@adorable.png',
 				total_task: 7,
 				activy: [
 					{
@@ -100,7 +100,7 @@ const Users = [
 				serie: 3,
 				level: 7,
 				task_complete: 2,
-				avatar: AvatarImage,
+				avatar: 'https://api.adorable.io/avatars/200/abostt@adorable.png',
 				total_task: 7,
 				activy: [
 					{
@@ -139,7 +139,7 @@ const Users = [
 				serie: 3,
 				level: 7,
 				task_complete: 2,
-				avatar: AvatarImage,
+				avatar: 'https://api.adorable.io/avatars/200/abott@adorable.png',
 				total_task: 7,
 				activy: [
 					{
@@ -179,7 +179,7 @@ const Users = [
 		serie: 3,
 		level: 7,
 		task_complete: 2,
-		avatar: AvatarImage,
+		avatar: 'https://api.adorable.io/avatars/200/abossdtt@adorable.png',
 		total_task: 7,
 		activy: [
 			{
