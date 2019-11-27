@@ -19,7 +19,13 @@ export default function Header() {
 				<header className='header'>
 					<Logo />
 					<div>
-						<h1>Sala de aula</h1>
+						<h1>
+							{location.pathname === '/formadev/Professor' ? (
+								`Sala de aula #${user.registration}`
+							) : (
+								'Minhas Tarefas'
+							)}
+						</h1>
 					</div>
 					<div className='profile'>
 						<label>

@@ -26,6 +26,7 @@ export default function Login() {
 		e.preventDefault();
 		const user = Users.find((user) => user.registration === registration && user.type === onchange);
 
+		verifyLogin();
 		if (user) {
 			localStorage.removeItem('user');
 			localStorage.setItem('user', JSON.stringify(user));
