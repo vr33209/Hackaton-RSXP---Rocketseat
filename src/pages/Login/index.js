@@ -22,13 +22,13 @@ export default function Login() {
 		if (user.type !== onchange) return setMessageError('Nenhum usuario encontrado !');
 	}
 
-	function handleSubmit(e) {
+	async function handleSubmit(e) {
 		e.preventDefault();
 		const user = Users.find((user) => user.registration === registration && user.type === onchange);
 
 		verifyLogin();
 		if (user) {
-			localStorage.removeItem('user');
+			await localStorage.removeItem('user');
 			localStorage.setItem('user', JSON.stringify(user));
 			history.push(`formadev/${user.type}`);
 		}

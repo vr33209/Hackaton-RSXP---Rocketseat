@@ -13,6 +13,16 @@
 		padding: 20px;
 
 		div {
+			> h1 {
+				font-family: 'Roboto Slab';
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 26px;
+				margin-top: 16px;
+				margin-bottom: 16px;
+				color: #847f7f;
+			}
 			span {
 				color: #867e7e;
 				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
