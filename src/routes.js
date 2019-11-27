@@ -1,5 +1,4 @@
 import React from 'react';
-import useReactRouter from 'use-react-router';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
@@ -7,8 +6,6 @@ import Header from './components/Header';
 import Login from './pages/Login';
 import Student from './pages/Student';
 import Teacher from './pages/Teacher';
-
-// import { Container } from './styles';
 
 export default function Routes() {
 	return (

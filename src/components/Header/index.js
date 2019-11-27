@@ -12,7 +12,6 @@ export default function Header() {
 		const user = window.localStorage.getItem('user');
 		setUser(JSON.parse(user));
 	}, []);
-	console.log(location.pathname === '/');
 
 	return (
 		<Fragment>
