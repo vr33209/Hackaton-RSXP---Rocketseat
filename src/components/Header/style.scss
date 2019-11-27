@@ -1,58 +1,51 @@
 .header {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 88px;
-	background: #e75353;
-	padding: 0 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  background: #e75353;
+  padding: 0 16px;
 
-	h1 {
-		font-family: 'Roboto Slab';
-		font-style: normal;
-		font-weight: normal;
-		font-size: 24px;
-		line-height: 32px;
-		text-align: center;
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+  }
 
-		color: #ffffff;
-	}
+  .logo {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    h1 {
+      font-size: 3em;
+      color: #ffffff;
+    }
 
-	.logo {
-		display: flex;
-		align-items: center;
-		background: transparent;
-		h1 {
-			font-family: 'Roboto Slab';
-			font-style: normal;
-			font-weight: normal;
-			font-size: 48px;
-			line-height: 63px;
+    img {
+      width: 12px;
+      height: 12px;
 
-			color: #ffffff;
-		}
+      svg {
+        color: #e75353;
+      }
+    }
+  }
 
-		img {
-			width: 12px;
-			height: 12px;
+  .profile {
+    display: flex;
+    label {
+      margin-right: 20px;
+      font-size: 1em;
+      line-height: 24px;
+      text-align: right;
+      color: #ffffff;
+    }
 
-			svg {
-				color: #e75353;
-			}
-		}
-	}
-
-	.profile {
-		display: flex;
-		label {
-			margin-right: 16px;
-			font-family: 'Roboto Slab';
-			font-style: normal;
-			font-weight: normal;
-			font-size: 18px;
-			line-height: 24px;
-			text-align: center;
-			color: #ffffff;
-		}
-	}
+    img {
+      height: 70px;
+      border-radius: 50px;
+      border: 2px solid #fafafa;
+    }
+  }
 }

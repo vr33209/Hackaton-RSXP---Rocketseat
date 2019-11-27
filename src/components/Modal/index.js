@@ -5,37 +5,37 @@ export default function Modal({ setIsOpen, isOpen, objModal }) {
 		<Fragment>
 			{isOpen && (
 				<div className='modal' onClick={() => setIsOpen(!isOpen)}>
-					<div className='modalBoxProfileModal' onClick={(e) => e.stopPropagation()}>
-						<div className='profileModal'>
-							<img src={objModal.avatar} alt='' />
-							<h1>{objModal.name}</h1>
-							<span>Serie: {objModal.level}</span>
+					<div className='modalCard' onClick={(e) => e.stopPropagation()}>
+						<div className='modalProfileSection'>
+							<img className='modalProfileSectionAvatar' src={objModal.avatar} alt={objModal.name} />
+							<h1 className='modalProfileSectionTitle'>{objModal.name}</h1>
+							<h2 className='modalProfileSectionSubTitle'>Serie: {objModal.level}</h2>
 						</div>
-						<div>
-							<h2>
-								Nome: <span>{objModal.name}</span>
-							</h2>
-							<h2>
-								E-mail: <span>{objModal.email}</span>
-							</h2>
-							<h2>
-								Level: <span>{objModal.level}</span>
-							</h2>
-							<h2>
-								Progresso:
-								<span>
-									{objModal.task_complete}/{objModal.total_task}
-								</span>
-							</h2>
-							<h2>
-								Matricula: <span>{objModal && objModal.registration}</span>
-							</h2>
+						<div className='modelProfilDetailSection'>
+							<span className='modelProfilDetailSectionSpan'>
+								<label className='modelProfilDetailSectionLabel'> Nome: </label> {objModal.name}
+							</span>
+							<span className='modelProfilDetailSectionSpan'>
+								<label className='modelProfilDetailSectionLabel'> E-mail: </label> {objModal.email}
+							</span>
+							<span className='modelProfilDetailSectionSpan'>
+								<label className='modelProfilDetailSectionLabel'> Level: </label> {objModal.level}
+							</span>
+							<span className='modelProfilDetailSectionSpan'>
+								<label className='modelProfilDetailSectionLabel'> Progresso: </label>{objModal.task_complete}/{objModal.total_task}
+							</span>
+							<span className='modelProfilDetailSectionSpan'>
+								<label className='modelProfilDetailSectionLabel'> Matricula: </label>{objModal && objModal.registration}
+							</span>
 
-							<h1>Enviar atividade</h1>
-							<input type='text' />
-							<label>
-								<input type='file' />
-							</label>
+
+							<h1 className='modelProfilDetailSectionActivityTitle'>Enviar atividade</h1>
+
+							<form>
+								<input placeholder='Titulo da atividade'/>
+								<input placeholder='Anexar arquivo'/>
+								<button type='submit'>Enviar</button>
+							</form>
 						</div>
 					</div>
 				</div>

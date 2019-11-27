@@ -1,58 +1,118 @@
 .modal {
-	position: absolute;
-	top: 0;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.6);
-	z-index: 90;
-	position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 90;
+  position: fixed;
 
-	@media screen {
-		@media (min-width: 1440px) {
-			padding: 200px 300px 80px 300px;
-		}
-	}
+  @media screen {
+    @media (min-width: 1440px) {
+      padding: 200px 300px 80px 300px;
+    }
+  }
 
-	.modalBoxProfileModal {
-		background: #fff;
-		width: 100%;
-		height: 427px;
-		display: flex;
+  .modalCard {
+    background: #fff;
+    width: 100%;
+    height: 427px;
+    display: flex;
+    border-radius: 5px;
 
-		.profileModal {
-			background: #9f0e0e;
-			width: 265px;
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+    .modalProfileSection {
+      background: #9f0e0e;
+      width: 350px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
 
-			img {
-				width: 135px;
-				height: 135px;
-			}
+      .modalProfileSectionAvatar {
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+        margin-bottom: 16px;
+      }
 
-			h1 {
-				font-family: 'Cantata One';
-				font-style: normal;
-				font-weight: normal;
-				font-size: 20px;
-				line-height: 25px;
-				text-align: center;
-				color: #ffffff;
-			}
+      .modalProfileSectionTitle {
+        font-size: 1.2em;
+        text-align: center;
+        color: #ffffff;
+      }
 
-			span {
-				font-family: 'Cantata One';
-				font-style: normal;
-				font-weight: normal;
-				font-size: 16px;
-				line-height: 20px;
-				text-align: center;
+      .modalProfileSectionSubTitle {
+        font-size: 0.8em;
+        text-align: center;
+        color: #fafafa;
+      }
+    }
 
-				color: #c5bdbd;
-			}
-		}
-	}
+    .modelProfilDetailSection {
+      display: flex;
+      flex-direction: column;
+	  padding: 16px;
+	  width: 100%;
+	  text-align: center;
+
+      .modelProfilDetailSectionSpan {
+        padding-bottom: 5px;
+        color: #535353;
+        font-weight: 600;
+        font-size: 1.1em;
+        .modelProfilDetailSectionLabel {
+          font-weight: 600;
+          font-size: 1.1em;
+        }
+      }
+
+      .modelProfilDetailSectionActivityTitle {
+		color: #535353;
+        margin-top: 20px;
+        font-size: 1.4em;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+		justify-content: center;
+		padding-left: 30px;
+		padding-right: 30px;
+
+        input {
+          height: 48px;
+          border: 1px solid #535353;
+          border-radius: 4px;
+          font-size: 16px;
+          padding: 0 20px;
+          margin-top: 10px;
+        }
+
+        button {
+          height: 48px;
+          background: #fff;
+          border-radius: 4px;
+          font-size: 16px;
+          padding: 0 20px;
+          margin-top: 10px;
+          color: #535353;
+          font-weight: bold;
+          cursor: pointer;
+          border: 1px solid #535353;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+
+        label {
+          color: #535353;
+          font-size: 18px;
+          margin-top: 16px;
+        }
+      }
+    }
+  }
 }
