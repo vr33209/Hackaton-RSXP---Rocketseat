@@ -5,14 +5,14 @@ import CardPeople from '../../components/CardPeople';
 export default function MyActivy({ user, setObjModal, setIsOpen, isOpen }) {
 	return (
 		<Fragment>
-			{user.class &&
-				user.class.map((classe) => (
+			{user &&
+				user.activy.map((classe) => (
 					<CardPeople
 						onclick={() => {
 							setObjModal(classe);
 							setIsOpen(!isOpen);
 						}}
-						classe={classe}
+						classe={user}
 					/>
 				))}
 		</Fragment>
